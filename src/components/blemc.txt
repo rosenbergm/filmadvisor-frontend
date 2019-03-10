@@ -1,0 +1,39 @@
+<View style={{ flex: 1, flexDirection: 'row' }}>
+              <CheckBox
+                style={{
+                  flex: 1 / 3
+                }}
+                value={this.state.isFeelingChecked}
+                onValueChange={() => this.onFeelingChangeCheck('sad')}
+              />
+              <CheckBox
+                style={{ flex: 1 / 3 }}
+                value={this.state.isFeelingChecked}
+                onValueChange={() => this.onFeelingChangeCheck('happy')}
+              />
+              <CheckBox
+                style={{ flex: 1 / 3 }}
+                value={this.state.isFeelingChecked}
+                onValueChange={() => this.onFeelingChangeCheck('veryHappy')}
+              />
+            </View>
+            <View style={{ flex: 1, flexDirection: 'row' }}>
+              <CheckBox
+                style={{
+                  flex: 1 / 3
+                }}
+                value={this.state.isFeelingChecked}
+                onValueChange={() => this.onFeelingChangeCheck('verySad')}
+              />
+              <CheckBox
+                style={{ flex: 1 / 3 }}
+                value={this.state.isFeelingChecked}
+                onValueChange={() => this.onFeelingChangeCheck('amazed')}
+              />
+              <CheckBox
+                style={{ flex: 1 / 3 }}
+                value={this.state.isFeelingChecked}
+                onValueChange={() => this.onFeelingChangeCheck('veryAmazed')}
+              />
+            </View>
+          </View>
